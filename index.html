@@ -11,16 +11,19 @@
     <header id="scroll-home">
       <nav class="navbar has-shadow" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="">
-            <h3 class="title is-3">Tikko</h3>
+          <a id="header-title" class="navbar-item" href="">
+            <p class="title is-3">Tikko</p>
           </a>
         </div>
         <div class="navbar-end">
-          <a href="#scroll-home"class="navbar-item">
+          <a href="#scroll-home"class="navbar-item has-text-centered">
             Home
           </a>
-          <a href="#scroll-about"class="navbar-item">
+          <a href="#scroll-about"class="navbar-item has-text-centered">
             About
+          </a>
+          <a href="#scroll-features"class="navbar-item has-text-centered">
+            Features
           </a>
         </div>
       </div>
@@ -39,7 +42,7 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    Sign in
+                    Sign In
                   </p>
                 </header>
                 <div class="card-content">
@@ -62,35 +65,72 @@
       </div>
     </div>
   </section>
-  <hr style="margin-top: 2em;">
+  <hr id="scroll-features" style="margin-top: 2em;">
   <section class="section">
     <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-narrow">
-          <p class="title is-1">About Us</p>
+      <div class="columns is-multiline">
+        <div class="column is-12 ">
+          <p class="title is-1 has-text-centered">Features</p>
         </div>
-      </div>
-      <div style="margin-top: 30px;" class="columns is-vcentered">
-        <div id="scroll-about" class="column">
-          <figure class="image">
-            <img src="images/quick_chat.svg">
-          </figure>
+        <div style="margin-top: 2em;" class="columns is-12">
+          <div class="column is-4 has-text-centered">
+            <i><img style="height: 128px;"src="images/portrait.png"></i>
+            <hr />
+            <p class="subtitle is-5">Create an avatar that is just like you.</p>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <i><img style="height: 128px;"src="images/compliant.png"></i>
+            <hr />
+            <p class="subtitle is-5">Fast, secure service with end-to-end encryption.</p>
+          </div>
+          <div class="column is-4 has-text-centered">
+            <i><img style="height: 128px;"src="images/light_bulb.png"></i>
+            <hr />
+            <p class="subtitle is-5">Design 100% thought for the user's comfort, simple and easy to understand.</p>
+          </div>
         </div>
-        <div class="column">
-          <p align="left" class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.</p>
-          <p align="left" class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur.</p>
-        </div>
+        <hr />
       </div>
     </div>
-  </section>
-  <hr style="margin-top: 1em;">
+  </div>
+</div>
+</section>
+<hr style="margin-top: 2em;">
+<section class="section">
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-narrow">
+      <p class="title is-1">About Us</p>
+    </div>
+  </div>
+  <div style="margin-top: 30px;" class="columns is-vcentered">
+    <div id="scroll-about" class="column">
+      <figure class="image">
+        <img src="images/quick_chat.svg">
+      </figure>
+    </div>
+    <div class="column">
+      <p align="left" class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.</p>
+      <p align="left" class="subtitle is-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+  </div>
+</div>
+</section>
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Landing Page</strong> by <a href="https://github.com/nicolaspiet">Nicolas Pietro</a>. The source code is available at
+      <a href="https://github.com/nicolaspiet/landing-page">Github</a>. All rights reserved.
+    </p>
+  </div>
+</footer>
 </body>
 </html>
